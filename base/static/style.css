@@ -1,3 +1,16 @@
 body {
+    margin: 0;
+}
+
+.surf-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./surf-hawaii-Kanaka-Rastamon\ 1.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-page {
     
 }
