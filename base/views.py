@@ -7,7 +7,6 @@ from .forms import CreateUserForm
 
 #landing page
 def landing_page(request):
-
     return render(request, 'landingpage.html', {})
 
 #login page
@@ -21,6 +20,7 @@ def login_page(request):
         if user is not None:
             login(request, user)
             return redirect('home_page')
+        #TODO: Error handling in a else: block
     return render(request, 'login.html', {})
 
 #signup page
